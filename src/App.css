@@ -1,0 +1,124 @@
+*, *::before, *::after {
+  box-sizing: border-box;    
+}
+
+body{
+  margin: 0px;
+  font-weight: 400;
+  background: #23252C;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.container{
+  background: #1A1B21;
+  width: 317px;
+}
+
+/* ----------- */
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile{
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.name{
+  margin-top: 21px;
+  margin-bottom: 6.2px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.job{
+  margin-top: 0px;
+  margin-bottom: 9px;
+  font-size: 12.8px;
+  color: #F3BF99;
+}
+
+.web{
+  margin-top: 0px;
+  font-size: 10.24px;
+  margin-bottom: 15px;
+}
+
+.btns{
+  display: flex;
+  gap: 17px;
+}
+
+#linkedin-btn, #email-btn {
+  width: 115px;
+  height: 34px;
+  padding: 9px 13px 9px 11px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 33px;
+}
+
+#linkedin-btn{
+  background: #5093E2;
+  color: white;
+}
+
+.btns p{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+/* ----------------About------------- */
+.about, .interests{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about h1, .interests h1{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  width: 243px;
+  height: 21px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about p, .interests p{
+  margin-top: 0px;
+  width: 247px;
+  height: 61px;
+  font-size: 10px;
+  line-height: 15px;
+  color: #DCDCDC;
+  margin-bottom: 25px;
+}
+
+.logos{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 317px;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
+}
+
+.logos img{
+  width: 25px;
+  height: 25px;
+}
